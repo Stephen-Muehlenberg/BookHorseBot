@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BookHorseBot.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FF_Token" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FF_client_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">apn6YvpZNIjuORSHq-v5NjF5WUiGiv5_</Value>
+    </Setting>
+    <Setting Name="FF_client_secret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">fLfiF66IInYOWJusFTnqCnRnVU4TrVpe</Value>
+    </Setting>
+    <Setting Name="R_Username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bookhorsebot</Value>
+    </Setting>
+    <Setting Name="R_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">attish</Value>
+    </Setting>
+    <Setting Name="R_client_id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UB0zU1sR4i_VEw</Value>
+    </Setting>
+    <Setting Name="R_client_secret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">fY7CjXfJ463llYSXfNqmNra1By4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
