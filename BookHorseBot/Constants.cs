@@ -4,7 +4,7 @@
     {
         public static string Footer 
             => "\r\n \r\n" +
-            "This is a bot | [Report problems](/message/compose/?to=BitzLeon&subject=Bookhorsebot running BHB 0.0.2)";
+            "This is a bot | [Report problems](/message/compose/?to=BitzLeon&subject=Bookhorsebot running BHB 0.0.2) | [Source](https://github.com/Bitz/BookHorseBot)";
 
         public static string NoResults
             => "[](/twisad) \r\n" +
