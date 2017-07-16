@@ -42,39 +42,13 @@ namespace BookHorseBot.Models
         public class Attributes
         {
             public string title { get; set; }
-            public string short_description { get; set; }
             public string description { get; set; }
-            public string description_html { get; set; }
-            public DateTime date_modified { get; set; }
             public DateTime date_published { get; set; }
-            public bool published { get; set; }
-            public Cover_Image cover_image { get; set; }
-            public Color color { get; set; }
-            public int num_views { get; set; }
             public int total_num_views { get; set; }
             public int num_words { get; set; }
-            public int num_chapters { get; set; }
-            public int num_comments { get; set; }
             public int rating { get; set; }
-            public string status { get; set; }
             public string completion_status { get; set; }
             public string content_rating { get; set; }
-            public int num_likes { get; set; }
-            public int num_dislikes { get; set; }
-        }
-
-        public class Cover_Image
-        {
-            public string thumbnail { get; set; }
-            public string medium { get; set; }
-            public string large { get; set; }
-            public string full { get; set; }
-        }
-
-        public class Color
-        {
-            public string hex { get; set; }
-            public int[] rgb { get; set; }
         }
 
         public class Relationships
@@ -128,34 +102,6 @@ namespace BookHorseBot.Models
         {
             public string name { get; set; }
             public string type { get; set; }
-            public int num_stories { get; set; }
-            public string bio { get; set; }
-            public string bio_html { get; set; }
-            public int num_followers { get; set; }
-            public int num_blog_posts { get; set; }
-            public Avatar avatar { get; set; }
-            public Color1 color { get; set; }
-            public DateTime date_joined { get; set; }
-        }
-
-        public class Avatar
-        {
-            public string _16 { get; set; }
-            public string _32 { get; set; }
-            public string _48 { get; set; }
-            public string _64 { get; set; }
-            public string _96 { get; set; }
-            public string _128 { get; set; }
-            public string _192 { get; set; }
-            public string _256 { get; set; }
-            public string _384 { get; set; }
-            public string _512 { get; set; }
-        }
-
-        public class Color1
-        {
-            public string hex { get; set; }
-            public int[] rgb { get; set; }
         }
 
         public class Meta1
